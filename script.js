@@ -52,7 +52,7 @@ function memoryFlipCard(card,val){
 				cards_flipped += 2;    //if cards are a match, accumulate card flipped
 				// Clear both arrays
 				memory_values = [];
-        memory_card_ids = [];
+        		memory_card_ids = [];
 				// Check to see if the whole board is cleared
 				
 				if(cards_flipped == memory_array.length){    //check if cards flipped is = to the memory board array length
@@ -71,7 +71,7 @@ function memoryFlipCard(card,val){
             	    card_2.innerHTML = "";
 				    // Clear both arrays
 				    memory_values = [];
-            memory_card_ids = [];
+            		memory_card_ids = [];
 				}
 				setTimeout(flip2Back, 700);   //cards flip back time over half a second
 			}
